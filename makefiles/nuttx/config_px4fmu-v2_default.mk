@@ -179,3 +179,8 @@ endef
 BUILTIN_COMMANDS := \
 	$(call _B, sercon,                 ,                          2048,  sercon_main                ) \
 	$(call _B, serdis,                 ,                          2048,  serdis_main                )
+
+#
+# User defined
+#
+MODULES		+= examples/hello_world
